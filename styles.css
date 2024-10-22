@@ -1,0 +1,111 @@
+/* selector { 
+ property: value;
+    anotherPRoperty: value;
+*/
+   
+
+
+h1, h2 {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 100%;
+
+
+
+}
+
+p {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100%;
+
+}
+
+
+/* PASTING IN FOR CLEAN UP */
+/* <div id=topbar */
+.topbar {
+    display: flex;
+    position:  relative;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+/* h1 id websitename  <h1>Dear Beer</h1>*/
+#websitename {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    width:  100%;
+    position: relative;
+    color:beige;
+
+}
+
+.nav {
+
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    color:beige;
+    position: relative;
+    
+}
+
+#loc {
+
+    margin-right: 16px;
+
+}
+
+#gall {
+    margin-right: 16px;
+    margin-left:16px;
+}
+
+
+#beer {
+    margin-right: 16px;
+    margin-left:16px;
+}
+
+#team {
+    margin-right: 16px;
+    margin-left:16px;
+}
+
+.splash {
+
+   background-image: url(./images/DALL·E\ 2024-10-21\ 09.30.43\ -\ .webp);
+   width: 100%;
+   position: relative;
+   text-align:center;
+   
+
+}
+
+#button {
+    background: black;
+    color:beige;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2rem;
+
+}
+
+.top {
+
+
+    
+}
+
+.best {
+
+width: 100%;
+
+}
+
