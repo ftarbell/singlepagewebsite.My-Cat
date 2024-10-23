@@ -251,3 +251,28 @@ footer {
     padding-top: 2rem;
 
 }
+
+@media all and (max width: 800px) {
+    
+    .innergrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+}
+
+@media all and (max width: 460px) {
+        .innergrid {
+            grid-template-columns: 1fr;
+        }
+
+        #brands {
+            grid-template-columns: 1fr;
+    
+        }
+
+        footer {
+            display:none;
+        }
+}
