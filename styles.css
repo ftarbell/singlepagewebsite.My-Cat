@@ -15,6 +15,7 @@ h1, h2 {
 
 }
 
+
 p {
     color: black;
     font-family:Arial, Helvetica, sans-serif;
@@ -27,32 +28,31 @@ p {
 /* PASTING IN FOR CLEAN UP */
 /* <div id=topbar */
 .topbar {
-    display: flex;
-    position:  relative;
     height: 50px;
     width: 100%;
+    margin: 0;
+    align-items: center;
     background-color: black;
+
 }
 
 /* h1 id websitename  <h1>Dear Beer</h1>*/
 #websitename {
-    display: flex;
-    justify-content: flex-end;
-    height: 50px;
-    width:  100%;
+    margin: 0;
+    justify-content: space-between;
     position: relative;
     color:beige;
 
 }
 
 .nav {
-
     display: flex;
-    justify-content: flex-end;
-    height: 50px;
+    justify-content:end;
     font-family:Arial, Helvetica, sans-serif;
     list-style-type: none;
     color:beige;
+    align-items: center;
+    text-align: center;
     position: relative;
     
 }
@@ -82,10 +82,17 @@ p {
 .splash {
 
    background-image: url(./images/DALL·E\ 2024-10-21\ 09.30.43\ -\ .webp);
+   background-size: cover;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
    width: 100%;
-   position: relative;
+   height: 100vh;
    text-align:center;
-   
+   display: flex;
+   align-items:center;
+   justify-content: center;
+
 
 }
 
@@ -97,8 +104,15 @@ p {
 
 }
 
-.top {
+#top {
 
+    background: black;
+    color:beige;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    display: flex;
+    justify-content:end;
+    text-align: center;
 
     
 }
@@ -106,6 +120,73 @@ p {
 .best {
 
 width: 100%;
+background-color: beige;
 
 }
 
+.map {
+    align-items: center;
+    margin: 0;
+    width: 100%;
+
+
+}
+
+.gallery {
+
+    margin: 0;
+    width: 100%;
+    background-color: beige;
+    border:5px;
+
+
+}
+
+.innergrid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.card {
+  border: 2px;  
+  border-radius: 5px;
+
+}
+
+img {
+    size: 100px;
+
+
+}
+
+body {
+    margin: 0;
+
+
+}
+
+.beer {
+
+    margin: 0;
+    width: 100%;
+    background-color: beige;
+    border:5px;
+
+}
+
+    
+#brands {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    
+}
+
+#card_2 {
+
+    border: 2px;  
+    border-radius: 5px;   
+
+}
