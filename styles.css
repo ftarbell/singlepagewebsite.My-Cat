@@ -235,6 +235,15 @@ body {
 
 }
 
+.team {
+   
+    margin: 0;
+    width: 100%;
+    background-color: beige;
+    border:5px;
+    text-align: center;  
+}
+
 footer {
 
     background-color: black;
