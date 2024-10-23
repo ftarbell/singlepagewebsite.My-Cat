@@ -15,4 +15,4 @@ Screenshot: https://res.cloudinary.com/gk3000/image/upload/v1572367458/single-pa
 * Brands section which is a responsive grid of images with text below each one
 * Team section with portraits and captions for the team members
 * Footer section
-* Take a look at the example of pure CSS dropdown menu for the mobile layout then you horizontal menu switches into a hamburger: https://codepen.io/GK3000/pen/eYOeVWM
+* Take a look at the example of pure CSS dropdown menu for the mobile layout then you horizontal menu switches into a hamburger: https://codepen.io/GK3000/pen/eYOeVWM# Multi.page.project
