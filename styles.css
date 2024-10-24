@@ -1,275 +1,51 @@
-/* selector { 
- property: value;
-    anotherPRoperty: value;
-*/
-   
+/* Main Elements */
 
+html {
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+section {
+
+
+}
+
+div {
+
+
+}
 
 h1 {
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    width: 100%;
-    margin: 0;
-    text-align: center;
 
-
-}
-
-.h1splash {
-    color: beige;
-    background-color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    width: 100%;
-    margin: 0;
-    padding: .5rem;
-}
-
-.h2splash {
-
-    color: beige;
-    background-color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    width: 100%;
-    margin: 0;
-    padding: .5rem;
-
-}
-
-h2 {
-    margin-bottom: 40px;
-    margin: 0;
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 p {
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    width: 100%;
 
-}
-
-
-.topbar {
-    height: 50px;
-    width: 100%;
-    margin: 0;
-    align-items: center;
-    background-color: black;
-    Display: flex;
-
-
-}
-
-
-#websitename {
-    margin: 0;
-    justify-content: space-between;
-    position: relative;
-    color:beige;
-    text-align: left;
-
-}
-
-.nav {
-    display: flex;
-    justify-content:end;
-    font-family:Arial, Helvetica, sans-serif;
-    list-style-type: none;
-    color:beige;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    
-}
-
-#loc {
-
-    margin-right: 16px;
-
-}
-
-#gall {
-    margin-right: 16px;
-    margin-left:16px;
-}
-
-
-#beer {
-    margin-right: 16px;
-    margin-left:16px;
-}
-
-#team {
-    margin-right: 16px;
-    margin-left:16px;
-}
-
-.splash {
-
-   background-image: url(./images/DALL·E\ 2024-10-21\ 09.30.43\ -\ .webp);
-   background-size: cover;
-   background-position: top;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   width: 100%;
-   height: 100vh;
-   text-align:center;
-   display: flex;
-   align-items:center;
-   justify-content: center;
-
-
-}
-
-#button {
-    background: black;
-    color:beige;
-    font-family:Arial, Helvetica, sans-serif;
-    padding: .5rem;
-    padding-top: 0;
-
-}
-
-#top {
-
-    background: black;
-    color:beige;
-    font-family:Arial, Helvetica, sans-serif;
-    padding-left: .5rem;
-    padding-right: .5rem;
-
-    
-}
-
-.best {
-
-width: 100%;
-background-color: beige;
-text-align: center;
-
-}
-
-.pbest {
-
-  text-align: left;  
-  
-
-}
-
-#lastpbest {
-    margin: 0;
-
-}
-
-.map {
-    align-items: center;
-    margin: 0;
-    width: 100%;
-
-
-}
-
-.gallery {
-
-    margin: 0;
-    width: 100%;
-    background-color: beige;
-    border:5px;
-    text-align: center;
-
-
-}
-
-.innergrid {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 2rem;
-padding-bottom: 2rem;
-padding-top: 1rem;
-
-
-
-}
-
-
-img {
-   width: 100%;
-
-
-}
-
-body {
-    margin: 0;
-
-
-}
-
-.beer {
-
-    margin: 0;
-    width: 100%;
-    background-color: beige;
-    border:5px;
-    text-align: center;
-
-}
-
-    
-#brands {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 5rem; 
-    margin: 10rem;
-    margin-bottom: 0;
-    
-}
-
-.card_2 {
-
-    border: 2px;  
-    border-radius: 5px; 
-    text-align: center; 
-
-}
-
-.team {
-   
-    margin: 0;
-    width: 100%;
-    background-color: beige;
-    border:5px;
-    text-align: center;  
 }
 
 footer {
 
-    background-color: black;
-    text-align: center;
-    padding-top: 2rem;
+}
+
+/* Classes */
+
+.mainheading {
 
 }
 
-@media all and (max-width: 800px) {
-    
-    .innergrid {
-        grid-template-columns: 1fr 1fr;
-    }
-
-
+.column1 {
 
 }
 
-@media all and (max-width: 460px) {
-        .innergrid {
-            grid-template-columns: 1fr;
-        }
+.column2 {
 
-        #brands {
-            grid-template-columns: 1fr;
+}
+
+.column3 {
+
+}
+
+.column4 {
     
-        }
-
 }
