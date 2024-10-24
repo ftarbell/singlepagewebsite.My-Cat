@@ -6,6 +6,14 @@ html {
 
 }
 
+header {
+    display: flex;
+}
+
+ul{
+    display: flex;
+    
+}
 section {
 
 
@@ -47,5 +55,5 @@ footer {
 }
 
 .column4 {
-    
+
 }
